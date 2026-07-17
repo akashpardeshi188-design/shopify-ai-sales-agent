@@ -1,0 +1,14 @@
+client_id = "2eb70667c0b41c424a19f07dfd28c195"
+name = "AI Sales Agent"
+application_url = "https://standing-thinks-bid-arlington.trycloudflare.com"
+embedded = true
+
+[auth]
+redirect_urls = [
+  "https://standing-thinks-bid-arlington.trycloudflare.com/api/auth/callback",
+  "https://standing-thinks-bid-arlington.trycloudflare.com/auth/callback",
+  "https://standing-thinks-bid-arlington.trycloudflare.com/api/auth"
+]
+
+[webhooks]
+api_version = "2025-01"

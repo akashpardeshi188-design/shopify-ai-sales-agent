@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(npx tsc --noEmit 2>&1 | Select-Object -First 100)",
+      "PowerShell(npx eslint . 2>&1 | Select-Object -First 150)",
+      "PowerShell(npm run *)",
+      "PowerShell(npx tsc --noEmit 2>&1 | Select-Object -First 150)",
+      "PowerShell(npx eslint . 2>&1 | Select-Object -First 200)",
+      "PowerShell(npx tsc --noEmit 2>&1 | Select-Object -First 200)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(npx supabase --version 2>&1)",
+      "PowerShell(npx supabase init --workdir . 2>&1)"
+    ]
+  }
+}
