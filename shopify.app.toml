@@ -5,9 +5,7 @@ embedded = true
 
 [auth]
 redirect_urls = [
-  "https://standing-thinks-bid-arlington.trycloudflare.com/api/auth/callback",
-  "https://standing-thinks-bid-arlington.trycloudflare.com/auth/callback",
-  "https://standing-thinks-bid-arlington.trycloudflare.com/api/auth"
+  "https://standing-thinks-bid-arlington.trycloudflare.com/api/shopify/callback"
 ]
 
 [webhooks]
